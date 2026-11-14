@@ -926,6 +926,8 @@ where $\sigma_{\mathrm{RS}}(y)$ is the tangential component of the residual stre
 
 By this method, a measured residual stress depth profile, $\sigma_{\mathrm{RS}}(y)$ , (for example residual stresses measured with the X-ray diffractometer according to ISO/TS 21432), representative for the analysed tooth flank condition, is used.
 
+> Editorial note (not part of the ISO text; ISO4-002, printed pages 21 and 29): This clause refers to X-ray diffraction in connection with ISO/TS 21432, whereas bibliography entry [4] describes neutron diffraction. The source is reproduced as printed; the intended reference requires authoritative clarification.
+
 ### 6.3.3 Method B
 
 Method B describes a procedure according to Reference [11] to calculate the residual stress depth profile, $\sigma_{\mathrm{RS}}(y)$ , based on the hardness depth profile $HV(y)$ (according to 7.4). These specified formulae are only applicable for case carburized steels and correlate to measurement results on test gears[15].

@@ -280,6 +280,8 @@ From the individual torque classes, the torques at the upper limit of each torqu
 
 Table 5 — Torque classes/numbers of cycles — Example: classes 38 and 39
 
+> Editorial note (not part of the ISO text; ISO6-008, printed pages 8 and 10): Table 3 uses lower-case $n_{38}$ and $n_{39}$, while the entries in Table 5 print upper-case $N$ under a lower-case $n_i$ heading. The source is retained pending clarification.
+
 | Upper limit of torque class<sup>a</sup>,  $T_i$ N·m | Number of cycles,  $n_i$ |
 | --- | --- |
 | $T_{38} < 12\ 620$ | $N_{38} = 237$ |
@@ -291,6 +293,8 @@ Based on the load spectrum $(T_{i}, n_{i})$ , the effective stress levels $\sigm
 
 ![](images/ce6b9cdfe2c3c0bdc112fceff25408264aa85ec9d57634aa4a5912d49d9a4a60.jpg)
 
+Key
+
 X number of load cycles, N (log)
 
 Y stress, $\sigma$ (log) or torque, $T$ (log)
@@ -300,6 +304,7 @@ Figure 2 — Load and stress spectrum
 The stress spectrum $(\sigma_{i}, n_{i})$ combined with the S-N curve $\sigma_{\mathrm{G}}(N)$ , allows the determination of the allowable number of cycles $N_{i}$ for each stress level $\sigma_{i}$ (see Figure 3).
 
 ![](images/35a58f5ea7c940bb36128a1a0bf06958d6a2eb031a5d402afc1575db328b0b8d.jpg)  
+Key  
 X number of load cycles, N (log)
 
 Y stress, $\sigma$ (log)
@@ -369,7 +374,9 @@ NOTE 5 The calculation of speed-dependent parameters is based, for each load lev
 
 This calculation process shall be applied to each pinion and wheel for both bending and contact stress. Figure 6 shows a presentation from which it can be concluded whether the part will survive the total number of stress cycles.
 
-![](images/982e36f0b89583cf06e7862cc1da4d93c0c163a1b18985653f85de79e20de528.jpg)  
+![](images/982e36f0b89583cf06e7862cc1da4d93c0c163a1b18985653f85de79e20de528.jpg)
+
+Key  
 X number of load cycles, N (log)  
 Y stress, $\sigma$ (log)
 
@@ -476,7 +483,7 @@ $$
 T_i^{p} n_i = T_j^{p} n_j \tag{A.3}
 $$
 
-![](images/d5bebc52f05662273937877a59755636fbafaa0a06f894e33c66a8c901cf39b6.jpg)  
+![](images/review-fixes/iso6-006-23.png)  
 Key  
 X number of load cycles, N (log)  
 Y torque, T (log)
@@ -558,6 +565,8 @@ Table A.2 — Example for the calculation of $K_{A}$ from the load spectrum
 
 ![table-A2-27](images/table-A2-27.png)
 
+> Editorial note (not part of the ISO text; ISO6-005): Exponents in this scanned table are not reliably legible in the supplied PDF. The original image is retained; consult a clearer authoritative copy.
+
 The equivalent torque $T_{eq}$ for 50 million load cycles is between the ends of bin 3 and 4 and is obtained by using log-log interpolation as follows:
 
 — The slope exponent for log-log interpolation is given by:
@@ -622,6 +631,8 @@ For pitting, the endurance limit is considered:
 — beyond $2 \times 10^{6}$ cycles for GG, GGG (ferr.), NT (nitr.), NV (nitr.), NV (nitrocar.);
 
 — beyond $50 \times 10^{6}$ cycles for St, V, GGG (perl., bai.), GTS (perl.), Eh, IF when limited pitting according to ISO 6336-2 is permitted;
+
+> Editorial note (not part of the ISO text; ISO6-004, printed pages 19 and 23): Table A.1 gives $10 \times 10^6$ for limited pitting in these material groups, while B.2.1 states $50 \times 10^6$. The annexes use different damage methods; the endurance-limit terminology requires clarification before exchanging parameters.
 
 — beyond $50 \times 10^{6}$ cycles for St, V, GGG (perl., bai.), GTS (perl.), Eh, IF.
 
@@ -732,7 +743,9 @@ NOTE 1 After $n_{eq,3REF}$ cycles the slope of the curve changes from the p defi
 
 NOTE 2 In order to be conservative, stress levels lower than the minimum level of the S-N curve at $10^{10}$ cycles, such as $\sigma_{nom,5}$ in Figure B.3, are integrated as it can contribute to the cumulative damage.
 
-![](images/179bff37b7863fe247d1378ad64bc7cc0b76cb23ddba2ab3f87e60c78cc6269c.jpg)  
+![](images/179bff37b7863fe247d1378ad64bc7cc0b76cb23ddba2ab3f87e60c78cc6269c.jpg)
+
+Key  
 X number of cycles, N (log)  
 Y stress, $\sigma$ (log)  
 $\sigma_{D}(N)$ stress value used to describe the equivalent damage fatigue curve  
@@ -770,7 +783,7 @@ $$
 \sigma_ {\mathrm{D}} (N) = \sigma_ {\mathrm{REF}} \left(\frac {n _ {\mathrm{eq} , 3 \mathrm{REF}}}{N}\right) ^ {1 / p} \quad \text { for } N \geq n _ {\mathrm{eq}, 3 \mathrm{REF}}\tag{B.6}
 $$
 
-> Editorial note (not part of the ISO text): The inequalities and the labels “long life area” and “limited life area” in Formulae (B.5) and (B.6) are reproduced as printed (printed page 28).
+> Editorial note (not part of the ISO text; ISO6-002): Formulae (B.5) and (B.6) reproduce the labels and inequalities as printed (printed page 28). The association of “long life area” with $N < n_{\mathrm{eq,3REF}}$ and “limited life area” with $N \geq n_{\mathrm{eq,3REF}}$ appears reversed in relation to the life ranges described above. Authoritative clarification is needed; no correction is assumed here.
 
 ## B.4 Use of cumulative damage concept for accelerated tests
 
@@ -790,6 +803,8 @@ An example is shown in Figure B.4 and the corresponding Table B.2. The right han
 
 Here the examined criterion is the contact pressure, and the cumulated loading spectrum is transformed in a contact stress spectrum which is cumulated as indicated in Figure B.4. Then from the point of the cumulated spectrum with the highest number of cumulated cycles the slope of life factor allows to determine the equivalent damage curve: each point of this curve is equivalent in terms of the contact fatigue damage to the full spectrum.
 
+> Editorial note (not part of the ISO text; ISO6-010, printed page 29): Figure B.4 labels its vertical axis torque $T$, whereas this paragraph and Table B.2 describe contact stress. The source is retained pending clarification.
+
 ![](images/20cf7b2f123c90f960c8f785f4b4301aaca6e7141f90fc22b3d3bc3385cef921.jpg)
 
 ![](images/a2b72260dbba008b4dc64e78d2ec6b46fbe01e690d9ef7fadcafcb2dc701003f.jpg)  
@@ -798,6 +813,8 @@ Figure B.4 — Load spectrum with a corresponding equivalent damage curve
 Table B.2 — Example for the calculation of the equivalent damage curve
 
 ![table-B2-35](images/table-B2-35.png)
+
+> Editorial note (not part of the ISO text; ISO6-005): Exponents in this scanned table are not reliably legible in the supplied PDF. The original image is retained; consult a clearer authoritative copy.
 
 # Annex C (informative) — Example calculation for safety factor from given load spectrum
 
@@ -887,6 +904,8 @@ $$
 
 For each load bin in the spectrum (bin Nos. 3 to 44), calculate the damage part, $U_{i}$ . The method is the same for both bending and contact stress. The references include: Formula (2); ISO 6336-2:2019, Figure 6 and ISO 6336-3:2019, Figure 11. Exponents are determined from the method given in ISO 6336-2:2019, 5.4.4.2 and ISO 6336-3:2019, 5.4.4.3. The number of cycles, $n_{i}$ , shall be for the complete operating life, not just for the 70 days worth of load cycles measured, as described in C.2. The values are given in Tables C.2 and C.3.
 
+- For contact stress
+
 $$
 Z _ {\mathrm{NTi}} = \frac {\sigma_ {\mathrm{Hi}}}{\sigma_ {\mathrm{HPi}}}\tag{C.7}
 $$
@@ -929,6 +948,8 @@ Sum up each damage part of the spectra according to Formula (3). The values are 
 
 Following Figure 7, by iterating, change the safety factor up or down as needed and recalculate according to C.4 to C.7 until the sum of damage parts, $U_{i}$ , is between 0,99 and 1,00. For this example, the spreadsheet program function was used to do the iterations. For 30 years of operation, this pinion has a safety factor of 1,428 in pitting and a safety factor of 1,324 in bending.
 
+> Editorial note (not part of the ISO text; ISO6-003, printed pages 32 and 34): The text reports 1,428 (pitting) and 1,324 (bending), whereas Tables C.2 and C.3 are titled 1,275 and 1,662 respectively. The source does not establish which values are correct; authoritative clarification and independent recalculation are needed.
+
 The values are given in Tables C.2 and C.3.
 
 Table C.2 — Example for the calculation of the pitting safety factor from the load spectrum safety factor = 1,275
@@ -947,12 +968,9 @@ Table C.3 — Example for the calculation of the bending safety factor from the 
 
 The accumulated load spectra and the S-N curves are shown in Figure C.1.
 
-Y1 contact stress, $\sigma_{H}$ , $\sigma_{HG}$ , N/mm $^{2}$
-
 ![](images/8eff4805d426b6b9c2e68d5ad6069de49bdf1a4d1f4cfb31e7d9c624429cb785.jpg)
 
 ![](images/e77f437ad4f412576c3a55abf03a194f6f7d5bd0b20543c6c3a92bcf792a72f6.jpg)  
-Y2 bending, $\sigma_{F}$ , $\sigma_{FG}$ , N/mm $^{2}$
 
 Figure C.1 — Load spectra and S-N curve
 

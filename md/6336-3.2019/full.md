@@ -743,6 +743,8 @@ The factor $f_{\varepsilon}$ considers the influence of load distribution betwee
 
 For spur gears with contact ratios $\varepsilon_{\alpha n} \leq 2,0$ the factor $f_{\varepsilon}$ is equal to one according Formula (10). For helical gears with overlap ratio $\varepsilon_{\beta} \geq 1$ the factor is calculated according to Formula (14). Formulae (12) and (13) provide a smooth function for $f_{\varepsilon}$ between Formulae (10) and (14).
 
+> 编者校核注（非标准正文）：ISO3-001；原文第17页正文在 εαn=2 时给出 fε=1，而式(10)、(11)的分段给出 0.7。边界取值需由权威说明核实。
+
 If $\varepsilon_{\beta} = 0$ and $\varepsilon_{\alpha n} < 2$ then
 
 $$
@@ -1335,7 +1337,7 @@ For this method, life factor, $Y_{NT}$ , of the standard reference test gear is 
 
 $Y_{NT}$ may be read from Figure 11 for the static stress and reference stress as a function of material and heat treatment. Values from a large number of tests are presented as typical damage or crack initiation curves for surface-hardened and nitride-hardened steels, or curves of yield stress for structural and through-hardened steels.
 
-![](images/4b9784e6ef7d07c5ace1f69e4fb4bc19fb02c209697726137194683f184f9cb5.jpg)
+![](images/review-fixes/iso3-figure11.png)
 
 Key  
 X number of load cycles, $N_{\mathrm{L}}$  
@@ -1520,7 +1522,7 @@ NOTE This figure is based on the bending flat bar complying with VDI 2226 $^{[8]
 
 Figure 13 — Relative notch sensitivity factor, $Y_{\delta rel T}$ , for static stress
 
-![](images/1cd6b8367429ff6cb22bb5912861b0988d5e451d8c6169a65338787ebbdbf74f.jpg)
+![](images/review-fixes/iso3-figure14.png)
 
 Key  
 X notch parameter, $q_{\mathrm{s}}$  
@@ -2004,6 +2006,8 @@ $$
 Obtain $Y_{R}$ following the directions in A.7.4.2.3 and obtain $Y_{Rk}$ using Formulae (A.18) to (A.21), which are consistent with the curves in Figure A.1. Introduce these values in Formula (A.17).
 
 ##### A.7.3.2.2 $Y_{\mathrm{Rrelk}}$ for static stress (in general) and reference stress in range $Rz_{\mathrm{k}} < 1\mu \mathrm{m}$
+
+> 编者校核注（非标准正文）：ISO3-002；原文第50页相邻分段未明确包括 Rzk=1 或 40 μm，端点适用性需由权威说明核实。
 
 $$
 Y _ {\mathrm{Rk}} = 1,0\tag{A.18}

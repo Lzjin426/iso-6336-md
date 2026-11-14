@@ -1,0 +1,1138 @@
+{
+  "scope": "本轮仅处理第一轮已接受的问题及其修改上下文；独立复核允许沿用明确列出的上一轮证据。未作全标准零错误认证。",
+  "baseline_commit": "fd77a238b1a1d7acab8a9d0f66af894194cebe30",
+  "counts": {
+    "fixed": 33,
+    "annotated": 21,
+    "existing-note-confirmed": 3,
+    "source-limited": 1
+  },
+  "items": [
+    {
+      "id": "ISO1-001",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "confirmed",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "1415、1426 行附近",
+      "action": "按已审核建议修正对应转录或呈现。 将表格整理为 9 列，使 3 级及八个数值分别对齐原表，删除多余列，并复核表头。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": "49–50",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable with inherited source evidence",
+        "verification": "Table 9 has nine columns and row 3 is aligned with the eight values in approved evidence. Checked against frozen diff and approved source evidence; source PDF claim inherited. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-002",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "confirmed",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "1434、1445 行附近",
+      "action": "按已审核建议修正对应转录或呈现。 将表格整理为 9 列，使 3 级及八个数值分别对齐原表，删除多余列，并复核表头。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": "50",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable with inherited source evidence",
+        "verification": "Table 10 has nine columns and row 3 is aligned with the eight values in approved evidence. Checked against frozen diff and approved source evidence; source PDF claim inherited. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-003",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "confirmed",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "1428、1447、1624 行附近",
+      "action": "按已审核建议修正对应转录或呈现。 三处按本版原文改为 Kγ，并复核相邻公式符号。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": "49–50, 55",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable with inherited source evidence",
+        "verification": "Table 9/10 load expressions and Figure 8 caption now use Kγ. Checked against frozen diff and approved source evidence; source PDF claim inherited. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-004",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "confirmed",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "1991、2006 行附近",
+      "action": "按已审核建议修正对应转录或呈现。 按本版原图将式 (60) 中 K 改为 K′。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": "65",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable with inherited source evidence",
+        "verification": "Formula (60) changes K to K′; nearby prose defines K′. Checked against frozen diff and approved source evidence; source PDF claim inherited. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-005",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "confirmed",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "2000、2004 行附近",
+      "action": "按已审核建议修正对应转录或呈现。 将破折号移出数学环境作为列表标记，保留两个正号 B* 等式。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": "65",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable with inherited source evidence",
+        "verification": "Both B* expressions are positive and list markers are outside math. Checked against frozen diff and approved source evidence; source PDF claim inherited. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-006",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "confirmed",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "2024、2031 行附近",
+      "action": "按已审核建议修正对应转录或呈现。 重新按 a–f 配对每幅图和其说明，保证全部字母、上标及判据对应原页；必要时用整图。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": "67",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable with inherited source evidence",
+        "verification": "Replacement image shows six labeled a–f panels and their captions, with the key retained below. Checked against frozen diff and approved source evidence; source PDF claim inherited. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-007",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "confirmed",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "2873、2875 行附近",
+      "action": "按已审核建议修正对应转录或呈现。 在式 (107) 恢复 C 标识及 the pitch point 说明。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": "88",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable with inherited source evidence",
+        "verification": "Formula (107) now carries C and “the pitch point”. Checked against frozen diff and approved source evidence; source PDF claim inherited. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-008",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "confirmed",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "3062、3064 行附近",
+      "action": "按已审核建议修正对应转录或呈现。 按原文恢复式 (134) 的闭区间条件。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": "94",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable with inherited source evidence",
+        "verification": "Formula (134) includes gAU ≤ gCP ≤ gEU. Checked against frozen diff and approved source evidence; source PDF claim inherited. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-009",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "confirmed",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "3916、3951 行附近",
+      "action": "按已审核建议修正对应转录或呈现。 将步骤 14 和式 (E.20) 的下标统一为 li。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": "121–122",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable with inherited source evidence",
+        "verification": "Step 14 and E.20 both use D_li, consistent with E.15. Checked against frozen diff and approved source evidence; source PDF claim inherited. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-010",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "confirmed",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "4312、4313 行附近",
+      "action": "按已审核建议修正对应转录或呈现。 以包含右侧完整回路线和箭头的原图替换当前裁切。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": "135",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable with inherited source evidence",
+        "verification": "Replacement image shows complete Yes return arrow to station 1 and No continuation. Checked against frozen diff and approved source evidence; source PDF claim inherited. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-011",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "confirmed",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "1042 行附近",
+      "action": "按已审核建议修正对应转录或呈现。 将条件中的 Kv 恢复为网间载荷系数 Kγ。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": "38",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable with inherited source evidence",
+        "verification": "Condition uses Kγ; Formula (11) contains Kγ. Checked against frozen diff and approved source evidence; source PDF claim inherited. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-012",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "confirmed",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "3771、3774 行附近",
+      "action": "按已审核建议修正对应转录或呈现。 恢复完整图注中的 forces in newtons，或使用包含完整单位标注的图像。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": "116",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable with inherited source evidence",
+        "verification": "Replacement image includes dimensions in millimetres and forces in newtons and the shaft arrows. Checked against frozen diff and approved source evidence; source PDF claim inherited. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-013",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "confirmed",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "1267 行附近",
+      "action": "按已审核建议修正对应转录或呈现。 按原文将 ring 与 m 一同纳入 d 的下标。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": "44",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable with inherited source evidence",
+        "verification": "d_m ring is now a single subscript. Checked against frozen diff and approved source evidence; source PDF claim inherited. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-014",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "confirmed",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "1392、1404 行附近",
+      "action": "按已审核建议修正对应转录或呈现。 为两条图例恢复各自 X、Y 标识，保持原图映射。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": "48",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable with inherited source evidence",
+        "verification": "The two expressions following Figure 5 are labeled X and Y. Checked against frozen diff and approved source evidence; source PDF claim inherited. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-015",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "confirmed",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "2620、2623 行附近",
+      "action": "按已审核建议修正对应转录或呈现。 在图例中恢复 X = bs/b。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": "83",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable with inherited source evidence",
+        "verification": "Figure 19 key includes X b_s/b and existing Y C_R. Checked against frozen diff and approved source evidence; source PDF claim inherited. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-016",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "confirmed",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "2444、2447 行附近",
+      "action": "按已审核建议修正对应转录或呈现。 恢复原页的虚线图例及完整说明，确保线型与图中曲线一致。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": "77",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable with inherited source evidence",
+        "verification": "Figure 17 legend states solid, dash-dot and dashed with material groups. Checked against frozen diff and approved source evidence; source PDF claim inherited. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-017",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "confirmed",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "2344 行附近",
+      "action": "按已审核建议修正对应转录或呈现。 将该注中的 f_fa 按原文改为 f_fα。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": "74",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable with inherited source evidence",
+        "verification": "The profile-deviation note now uses f_fα. Checked against frozen diff and approved source evidence; source PDF claim inherited. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-018",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "confirmed",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "2546 行附近",
+      "action": "按已审核建议修正对应转录或呈现。 将该处 Ky 改为 Kγ，并与其他使用该系数的地方核对。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": "80",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable with inherited source evidence",
+        "verification": "Specific-load condition now uses Kγ. Checked against frozen diff and approved source evidence; source PDF claim inherited. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-019",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "confirmed",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "2763、2765 行附近",
+      "action": "按已审核建议修正对应转录或呈现。 将两个定义符号改为希腊字母 ν₁、ν₂，与式 (98)–(99) 对齐。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": "86",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable with inherited source evidence",
+        "verification": "Poisson definitions use Greek ν₁ and ν₂. Checked against frozen diff and approved source evidence; source PDF claim inherited. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-020",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "suspected",
+      "disposition": "annotated",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "编者校核注 1799 行；相关正文约 1797 行",
+      "action": "保留印刷文本并添加含问题编号的非标准正文校注。 保留原印符号，核实适用的正式勘误或标准解释，再决定是否增加明确标识的说明；建议尚未执行。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": "60",
+      "remaining_source_limitations": "正式勘误或权威解释尚未核实。",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable annotated limitation",
+        "verification": "Checked actual editorial note: 编者校核注（非标准正文，ISO1-020，原标准印刷页 52）：物理页60式(46)及其定义使用 F_{βx}（小写 x）；同页条件印 yβ ≤ F_{βX}（大写 X）。 此处保留原文；尚未核实本版正式勘误或权威解释。 Original source claim inherited from approved evidence; diff retains adjacent baseline formula/text. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-021",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "confirmed",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "3537、3540 行附近",
+      "action": "按已审核建议修正对应转录或呈现。 恢复完整图例 X、Y 的变量和名称，或替换包含完整图例的图片。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": "108",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable with inherited source evidence",
+        "verification": "Figure C.1 key now names X and Y with Cβ* and KHβ. Checked against frozen diff and approved source evidence; source PDF claim inherited. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-022",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "confirmed",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "3712 行附近",
+      "action": "按已审核建议修正对应转录或呈现。 将注 b 的下标数字 1 改为小写字母 l。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": "113",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable with inherited source evidence",
+        "verification": "Figure D.2 note b now uses lowercase l. Checked against frozen diff and approved source evidence; source PDF claim inherited. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-023",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "suspected",
+      "disposition": "annotated",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "编者校核注 3936 行；相关正文约 3922, 3933 行",
+      "action": "保留印刷文本并添加含问题编号的非标准正文校注。 核实对应正式勘误或解释，保留原式，不静默改号。 建议尚未执行。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": 121,
+      "remaining_source_limitations": "正式勘误或权威解释尚未核实。",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable annotated limitation",
+        "verification": "Checked actual editorial note: 编者校核注（非标准正文，ISO1-023，原标准印刷页 113）：第15步要求改变 S_y 的符号并除以 L_s；式(E.18)却印 I_C=S_y/L_s。 此处保留原文；尚未核实本版正式勘误或权威解释。 Original source claim inherited from approved evidence; diff retains adjacent baseline formula/text. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-024",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "suspected",
+      "disposition": "annotated",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "编者校核注 657 行；相关正文约 647, 655 行",
+      "action": "保留印刷文本并添加含问题编号的非标准正文校注。 核实对应正式勘误，保留原式及注释身份。 建议尚未执行。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": 27,
+      "remaining_source_limitations": "正式勘误或权威解释尚未核实。",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable annotated limitation",
+        "verification": "Checked actual editorial note: 编者校核注（非标准正文，ISO1-024，原标准印刷页 19）：式(4)为 v=dn/19098；式(5)为 ω=2000v/d=n/9549。代入式(4)，前一等式得到 n/9.549，与后一等式差1000倍。 此处保留原文；尚未核实本版正式勘误或权威解释。 Original source claim inherited from approved evidence; diff retains adjacent baseline formula/text. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-025",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "suspected",
+      "disposition": "annotated",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "编者校核注 4268 行；相关正文约 4260, 4266 行",
+      "action": "保留印刷文本并添加含问题编号的非标准正文校注。 核实正式勘误，不自行补写操作数。 建议尚未执行。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": 133,
+      "remaining_source_limitations": "正式勘误或权威解释尚未核实。",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable annotated limitation",
+        "verification": "Checked actual editorial note: 编者校核注（非标准正文，ISO1-025，原标准印刷页 125）：式(E.34)第二括号印有 (δ₂−δ₁−)，末尾减号后无操作数。 此处保留原文；尚未核实本版正式勘误或权威解释。 Original source claim inherited from approved evidence; diff retains adjacent baseline formula/text. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-026",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "suspected",
+      "disposition": "annotated",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "编者校核注 3684 行；相关正文约 3681 行",
+      "action": "保留印刷文本并添加含问题编号的非标准正文校注。 核实正式勘误或解释，暂保留原式。 建议尚未执行。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": 112,
+      "remaining_source_limitations": "正式勘误或权威解释尚未核实。",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable annotated limitation",
+        "verification": "Checked actual editorial note: 编者校核注（非标准正文，ISO1-026，原标准印刷页 104）：式(D.10)首行方括号中基准挠度分式与变形项相邻而无加号，下一行却以 1 加变形项表示。 此处保留原文；尚未核实本版正式勘误或权威解释。 Original source claim inherited from approved evidence; diff retains adjacent baseline formula/text. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-027",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "suspected",
+      "disposition": "annotated",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "编者校核注 4250 行；相关正文约 4238, 4247 行",
+      "action": "保留印刷文本并添加含问题编号的非标准正文校注。 核实正式勘误或解释，不自行改写推导。 建议尚未执行。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": 133,
+      "remaining_source_limitations": "正式勘误或权威解释尚未核实。",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable annotated limitation",
+        "verification": "Checked actual editorial note: 编者校核注（非标准正文，ISO1-027，原标准印刷页 125）：式(E.31)左侧各项含 −L₁/X₁；原文称简化后，式(E.32)左侧这些减项消失，右侧未见对应补偿。 此处保留原文；尚未核实本版正式勘误或权威解释。 Original source claim inherited from approved evidence; diff retains adjacent baseline formula/text. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-028",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "suspected",
+      "disposition": "annotated",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "编者校核注 3782 行；相关正文约 3776, 3780 行",
+      "action": "保留印刷文本并添加含问题编号的非标准正文校注。 核实正式勘误及示例原意，不把计算推测当作权威修订。 建议尚未执行。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": 118,
+      "remaining_source_limitations": "正式勘误或权威解释尚未核实。",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable annotated limitation",
+        "verification": "Checked actual editorial note: 编者校核注（非标准正文，ISO1-028，原标准印刷页 110）：表E.1续表首区间平均斜率印0.49279，端点斜率为0和0.09856；区间变形增量印1.08414。端点算术平均约0.04928。 此处保留原文；尚未核实本版正式勘误或权威解释。 Original source claim inherited from approved evidence; diff retains adjacent baseline formula/text. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-029",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "suspected",
+      "disposition": "annotated",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "编者校核注 4222 行；相关正文约 4216, 4219 行",
+      "action": "保留印刷文本并添加含问题编号的非标准正文校注。 核实本版正式勘误或权威解释；保留原式，不依据类比静默改值。建议尚未执行。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": 133,
+      "remaining_source_limitations": "正式勘误或权威解释尚未核实。",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable annotated limitation",
+        "verification": "Checked actual editorial note: 编者校核注（非标准正文，ISO1-029，原标准印刷页 125）：式(E.28)前文要求将式(E.27)中的 j 设为位置1，随后式(E.28)仍印 L_j/X_j 和 δ_j。 此处保留原文；尚未核实本版正式勘误或权威解释。 Original source claim inherited from approved evidence; diff retains adjacent baseline formula/text. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-030",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "suspected",
+      "disposition": "annotated",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "编者校核注 4236 行；相关正文约 4224, 4233 行",
+      "action": "保留印刷文本并添加含问题编号的非标准正文校注。 核实本版正式勘误或权威解释；保留原式，不依据类比静默改值。建议尚未执行。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": 133,
+      "remaining_source_limitations": "正式勘误或权威解释尚未核实。",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable annotated limitation",
+        "verification": "Checked actual editorial note: 编者校核注（非标准正文，ISO1-030，原标准印刷页 125）：式(E.29)以减号表达 L₁，式(E.30)也以减号表达 Lᵢ；若两式作为互为移项的等式，符号关系不一致。 此处保留原文；尚未核实本版正式勘误或权威解释。 Original source claim inherited from approved evidence; diff retains adjacent baseline formula/text. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-031",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "suspected",
+      "disposition": "annotated",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "编者校核注 4252 行；相关正文约 4238, 4247 行",
+      "action": "保留印刷文本并添加含问题编号的非标准正文校注。 核实本版正式勘误或权威解释；保留原式，不依据类比静默改值。建议尚未执行。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": 133,
+      "remaining_source_limitations": "正式勘误或权威解释尚未核实。",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable annotated limitation",
+        "verification": "Checked actual editorial note: 编者校核注（非标准正文，ISO1-031，原标准印刷页 125）：式(E.31)右侧首项为 δ₁−δ₁；紧随“简化”说明的式(E.32)右侧首项却印 δᵢ−δ₁。 此处保留原文；尚未核实本版正式勘误或权威解释。 Original source claim inherited from approved evidence; diff retains adjacent baseline formula/text. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO1-032",
+      "standard": "ISO 6336-1:2019",
+      "original_status": "suspected",
+      "disposition": "annotated",
+      "relative_md_path": "md/6336-1.2019/full.md",
+      "final_location": "编者校核注 4270 行；相关正文约 4254, 4266 行",
+      "action": "保留印刷文本并添加含问题编号的非标准正文校注。 核实本版正式勘误或权威解释；保留原式，不依据类比静默改值。建议尚未执行。",
+      "pdf": "ISO 6336-1   2019.pdf",
+      "physical_page": 133,
+      "remaining_source_limitations": "正式勘误或权威解释尚未核实。",
+      "independent_review": {
+        "group": "a",
+        "version": "v2",
+        "verdict": "acceptable annotated limitation",
+        "verification": "Checked actual editorial note: 编者校核注（非标准正文，ISO1-032，原标准印刷页 125）：式(E.31)–(E.33)以 n 表示求和末项；求解 L₁ 的式(E.34)两处分母却印 i，段数与分母的关系不明。 此处保留原文；尚未核实本版正式勘误或权威解释。 Original source claim inherited from approved evidence; diff retains adjacent baseline formula/text. Inherited v1 review evidence: corresponding snapshot files and approved findings are byte-identical in v2."
+      }
+    },
+    {
+      "id": "ISO2-001",
+      "standard": "ISO 6336-2:2019",
+      "original_status": "rendering",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-2.2019/full.md",
+      "final_location": [
+        681,
+        685
+      ],
+      "action": "将 a、b 子图标签分别紧随对应图片。",
+      "pdf": "ISO 6336-2-2019.pdf",
+      "physical_page": 23,
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "b",
+        "version": "v2",
+        "verdict": "Acceptable",
+        "verification": "Inherited v1 review of byte-identical repair: MD 681–685 now places a) after the first image and b) after the second; source arrangement inherited from approved finding."
+      }
+    },
+    {
+      "id": "ISO2-002",
+      "standard": "ISO 6336-2:2019",
+      "original_status": "suspected",
+      "disposition": "existing-note-confirmed",
+      "relative_md_path": "md/6336-2.2019/full.md",
+      "final_location": [
+        1234,
+        1240,
+        1249
+      ],
+      "action": "保留式(54)、(55)原印及既有缺少等号的编者注。",
+      "pdf": "ISO 6336-2-2019.pdf",
+      "physical_page": 37,
+      "remaining_source_limitations": "需要权威说明或正式勘误确认；未验证到正式勘误。",
+      "independent_review": {
+        "group": "b",
+        "version": "v2",
+        "verdict": "Acceptable",
+        "verification": "Inherited v1 review of byte-identical repair: MD 1234, 1240, 1249 retains both missing equals signs and existing explicit non-ISO note; source printing inherited from approved evidence."
+      }
+    },
+    {
+      "id": "ISO3-001",
+      "standard": "ISO 6336-3:2019 (corrected 2020-11)",
+      "original_status": "suspected",
+      "disposition": "annotated",
+      "relative_md_path": "md/6336-3.2019/full.md",
+      "final_location": [
+        744,
+        746,
+        757
+      ],
+      "action": "保留原印，增加明确标识的非标准编者校核注。",
+      "pdf": "ISO 6336-3 2019.pdf",
+      "physical_page": 25,
+      "remaining_source_limitations": "需要权威说明或正式勘误确认；未验证到正式勘误。",
+      "independent_review": {
+        "group": "b",
+        "version": "v2",
+        "verdict": "Acceptable",
+        "verification": "Inherited v1 review of byte-identical repair: MD 744–757 retains ≤2 prose and <2/≥2 formula split; new note identifies 1 versus 0.7 and defers authority; source printing inherited."
+      }
+    },
+    {
+      "id": "ISO3-002",
+      "standard": "ISO 6336-3:2019 (corrected 2020-11)",
+      "original_status": "suspected",
+      "disposition": "annotated",
+      "relative_md_path": "md/6336-3.2019/full.md",
+      "final_location": [
+        2008,
+        2010,
+        2021
+      ],
+      "action": "保留原印，增加明确标识的非标准编者校核注。",
+      "pdf": "ISO 6336-3 2019.pdf",
+      "physical_page": 58,
+      "remaining_source_limitations": "需要权威说明或正式勘误确认；未验证到正式勘误。",
+      "independent_review": {
+        "group": "b",
+        "version": "v2",
+        "verdict": "Acceptable",
+        "verification": "Inherited v1 review of byte-identical repair: MD 2008–2021 retains strict endpoint inequalities and adds non-normative note identifying 1 and 40 μm; source printing inherited."
+      }
+    },
+    {
+      "id": "ISO3-003",
+      "standard": "ISO 6336-3:2019 (corrected 2020-11)",
+      "original_status": "suspected",
+      "disposition": "existing-note-confirmed",
+      "relative_md_path": "md/6336-3.2019/full.md",
+      "final_location": [
+        2084,
+        2086,
+        2101,
+        2105,
+        2129
+      ],
+      "action": "保留 B.1、B.2、B.3 原印及既有应力比疑点注。",
+      "pdf": "ISO 6336-3 2019.pdf",
+      "physical_page": "60–61",
+      "remaining_source_limitations": "需要权威说明或正式勘误确认；未验证到正式勘误。",
+      "independent_review": {
+        "group": "b",
+        "version": "v2",
+        "verdict": "Acceptable",
+        "verification": "Inherited v1 review of byte-identical repair: MD 2084–2129 preserves 1>R>0, negative B.2 and R=1 in B.3 with existing note; source printing inherited."
+      }
+    },
+    {
+      "id": "ISO2-003",
+      "standard": "ISO 6336-2:2019",
+      "original_status": "suspected",
+      "disposition": "annotated",
+      "relative_md_path": "md/6336-2.2019/full.md",
+      "final_location": [
+        1108,
+        1122,
+        1125
+      ],
+      "action": "保留式(43)原印分母，并补充与相邻区间数值不连续的非标准编者注。",
+      "pdf": "ISO 6336-2-2019.pdf",
+      "physical_page": 34,
+      "remaining_source_limitations": "需要权威说明或正式勘误确认；未验证到正式勘误。",
+      "independent_review": {
+        "group": "b",
+        "version": "v2",
+        "verdict": "Acceptable",
+        "verification": "Inherited v1 review of byte-identical repair: MD 1110–1125 retains 437.5 and notes discontinuity. Arithmetic at endpoints gives approximately 2.579 and 3.379 versus 0.83 and 0.91; source print inherited."
+      }
+    },
+    {
+      "id": "ISO2-004",
+      "standard": "ISO 6336-2:2019",
+      "original_status": "rendering",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-2.2019/full.md",
+      "final_location": [
+        1404,
+        1411
+      ],
+      "action": "重新裁切图 11 使其只包含图形区域，保留前面的完整文本及公式。",
+      "pdf": "ISO 6336-2-2019.pdf",
+      "physical_page": 42,
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "b",
+        "version": "v2",
+        "verdict": "Acceptable",
+        "verification": "Inherited v1 review of byte-identical repair: MD 1405–1419 preserves condition, equation, separate key and caption; visually inspected new figure 11: curves, X/Y, ratios and b survive, no preceding formula fragment."
+      }
+    },
+    {
+      "id": "ISO3-004",
+      "standard": "ISO 6336-3:2019 (corrected 2020-11)",
+      "original_status": "rendering",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-3.2019/full.md",
+      "final_location": [
+        1340,
+        1348,
+        1525,
+        1533
+      ],
+      "action": "裁剪图片内的图例，保留独立的可检索文本图例。",
+      "pdf": "ISO 6336-3 2019.pdf",
+      "physical_page": "39, 45",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "b",
+        "version": "v2",
+        "verdict": "Acceptable",
+        "verification": "Inherited v1 review of byte-identical repair: MD 1340–1350 and 1525–1536 reference two new images with separate keys/captions. Both crops visually inspected: axes, curves, numerical/material and a–d labels retained; legends not duplicated."
+      }
+    },
+    {
+      "id": "ISO4-001",
+      "standard": "ISO/TS 6336-4:2019",
+      "original_status": "suspected",
+      "disposition": "existing-note-confirmed",
+      "relative_md_path": "md/6336TS-4.2019/full.md",
+      "final_location": [
+        1223
+      ],
+      "action": "保留式 A.5 和原有校注，注明与式 (7)、(A.2) 不一致。",
+      "pdf": "ISO TS 6336-4 2019.pdf",
+      "physical_page": "34",
+      "remaining_source_limitations": "原文疑点仍待权威说明或勘误；未替代标准值。",
+      "independent_review": {
+        "group": "c",
+        "version": "v2",
+        "verdict": "adequate for reviewed issue, subject to stated source limitations",
+        "verification": "Inherited v1 review (unchanged relevant snapshot content): Existing note flags b_H,CP and factor 4 versus (7)/(A.2); PDF p34 visually checked."
+      }
+    },
+    {
+      "id": "ISO4-002",
+      "standard": "ISO/TS 6336-4:2019",
+      "original_status": "suspected",
+      "disposition": "annotated",
+      "relative_md_path": "md/6336TS-4.2019/full.md",
+      "final_location": [
+        929
+      ],
+      "action": "在 6.3.2 添加 X 射线与参考文献中子衍射冲突校注。",
+      "pdf": "ISO TS 6336-4 2019.pdf",
+      "physical_page": "27, 35",
+      "remaining_source_limitations": "原文疑点仍待权威说明或勘误；未替代标准值。",
+      "independent_review": {
+        "group": "c",
+        "version": "v2",
+        "verdict": "adequate for reviewed issue, subject to stated source limitations",
+        "verification": "Inherited v1 review (unchanged relevant snapshot content): Note identifies X-ray versus neutron reference conflict and asks clarification."
+      }
+    },
+    {
+      "id": "ISO5-001",
+      "standard": "ISO 6336-5:2016",
+      "original_status": "confirmed",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-5.2016/full.md",
+      "final_location": [
+        500
+      ],
+      "action": "删除重复 Key。",
+      "pdf": "ISO 6336-5 2016.pdf",
+      "physical_page": "16",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "c",
+        "version": "v2",
+        "verdict": "adequate for reviewed issue, subject to stated source limitations",
+        "verification": "Inherited v1 review (unchanged relevant snapshot content): Removed external duplicate Key; retained image and following legend in diff."
+      }
+    },
+    {
+      "id": "ISO6-001",
+      "standard": "ISO 6336-6:2019",
+      "original_status": "confirmed",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-6.2019/full.md",
+      "final_location": [
+        397,
+        417,
+        907
+      ],
+      "action": "在 C.7 前恢复 For contact stress。",
+      "pdf": "ISO 6336-6 2019.pdf",
+      "physical_page": "37",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "c",
+        "version": "v2",
+        "verdict": "adequate for reviewed issue, subject to stated source limitations",
+        "verification": "Inherited v1 review (unchanged relevant snapshot content): Inserted For contact stress before C.7; source PDF p37 confirms heading."
+      }
+    },
+    {
+      "id": "ISO6-002",
+      "standard": "ISO 6336-6:2019",
+      "original_status": "suspected",
+      "disposition": "annotated",
+      "relative_md_path": "md/6336-6.2019/full.md",
+      "final_location": [
+        786
+      ],
+      "action": "保留 B.5/B.6 印刷标签及不等式；扩充非标准校注，指出寿命区标签与不等式的表面反向关系并要求权威澄清。",
+      "pdf": "ISO 6336-6 2019.pdf",
+      "physical_page": "34",
+      "remaining_source_limitations": "原文疑点尚待权威澄清；未自行更改或选定工程值。",
+      "independent_review": {
+        "group": "c",
+        "version": "v2",
+        "verdict": "adequate for reviewed issue, subject to stated source limitations",
+        "verification": "v2 note at line 786 identifies long life with N < threshold and limited life with N ≥ threshold as apparently reversed relative to preceding life ranges, calls for authoritative clarification, and explicitly assumes no correction. Printed formulae and labels remain byte-for-byte unchanged."
+      }
+    },
+    {
+      "id": "ISO6-003",
+      "standard": "ISO 6336-6:2019",
+      "original_status": "suspected",
+      "disposition": "annotated",
+      "relative_md_path": "md/6336-6.2019/full.md",
+      "final_location": [
+        951
+      ],
+      "action": "保留正文及表题数值并说明矛盾。",
+      "pdf": "ISO 6336-6 2019.pdf",
+      "physical_page": "38, 40",
+      "remaining_source_limitations": "原文疑点仍待权威说明或勘误；未替代标准值。",
+      "independent_review": {
+        "group": "c",
+        "version": "v2",
+        "verdict": "adequate for reviewed issue, subject to stated source limitations",
+        "verification": "Inherited v1 review (unchanged relevant snapshot content): Note distinguishes text 1.428/1.324 from table titles 1.275/1.662 and refrains from selecting."
+      }
+    },
+    {
+      "id": "ISO6-004",
+      "standard": "ISO 6336-6:2019",
+      "original_status": "suspected",
+      "disposition": "annotated",
+      "relative_md_path": "md/6336-6.2019/full.md",
+      "final_location": [
+        635
+      ],
+      "action": "保留 A/B 附录方法与数值并说明差异。",
+      "pdf": "ISO 6336-6 2019.pdf",
+      "physical_page": "25, 29",
+      "remaining_source_limitations": "原文疑点仍待权威说明或勘误；未替代标准值。",
+      "independent_review": {
+        "group": "c",
+        "version": "v2",
+        "verdict": "adequate for reviewed issue, subject to stated source limitations",
+        "verification": "Inherited v1 review (unchanged relevant snapshot content): Note identifies 10×10^6 and 50×10^6, the different methods, and need for clarification."
+      }
+    },
+    {
+      "id": "ISO6-005",
+      "standard": "ISO 6336-6:2019",
+      "original_status": "source-gap",
+      "disposition": "source-limited",
+      "relative_md_path": "md/6336-6.2019/full.md",
+      "final_location": [
+        568,
+        817
+      ],
+      "action": "保留原表图，分别标明扫描指数无法可靠辨认。",
+      "pdf": "ISO 6336-6 2019.pdf",
+      "physical_page": "27, 35",
+      "remaining_source_limitations": "原始资料不足，须以清晰的同版权威原件复核；未推测缺失内容。",
+      "independent_review": {
+        "group": "c",
+        "version": "v2",
+        "verdict": "adequate for reviewed issue, subject to stated source limitations",
+        "verification": "Inherited v1 review (unchanged relevant snapshot content): Two separate notes retain scanned tables and state exponents cannot be reliably read."
+      }
+    },
+    {
+      "id": "ISO5-002",
+      "standard": "ISO 6336-5:2016",
+      "original_status": "confirmed",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-5.2016/full.md",
+      "final_location": [
+        828
+      ],
+      "action": "重裁图 21，恢复编号 1。",
+      "pdf": "ISO 6336-5 2016.pdf",
+      "physical_page": "44",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "c",
+        "version": "v2",
+        "verdict": "adequate for reviewed issue, subject to stated source limitations",
+        "verification": "Inherited v1 review (unchanged relevant snapshot content): New figure 21 crop visibly includes label 1 and arrow; legend follows in Markdown."
+      }
+    },
+    {
+      "id": "ISO5-003",
+      "standard": "ISO 6336-5:2016",
+      "original_status": "rendering",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-5.2016/full.md",
+      "final_location": [
+        478,
+        490,
+        500,
+        515
+      ],
+      "action": "删除图像中已有的四处子图重复标题。",
+      "pdf": "ISO 6336-5 2016.pdf",
+      "physical_page": "15-17",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "c",
+        "version": "v2",
+        "verdict": "adequate for reviewed issue, subject to stated source limitations",
+        "verification": "Inherited v1 review (unchanged relevant snapshot content): Four old images visibly contain respective subfigure captions; diff deletes duplicated Markdown lines."
+      }
+    },
+    {
+      "id": "ISO6-006",
+      "standard": "ISO 6336-6:2019",
+      "original_status": "confirmed",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-6.2019/full.md",
+      "final_location": [
+        486
+      ],
+      "action": "重裁图 A.1，去除顶部公式残片。",
+      "pdf": "ISO 6336-6 2019.pdf",
+      "physical_page": "23",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "c",
+        "version": "v2",
+        "verdict": "adequate for reviewed issue, subject to stated source limitations",
+        "verification": "Inherited v1 review (unchanged relevant snapshot content): New A.1 crop contains axes and figure, with no formula fragment at its top."
+      }
+    },
+    {
+      "id": "ISO5-004",
+      "standard": "ISO 6336-5:2016",
+      "original_status": "rendering",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-5.2016/full.md",
+      "final_location": [
+        535
+      ],
+      "action": "将 NOTE 1 移至图 5 图例后并排在 NOTE 2 前。",
+      "pdf": "ISO 6336-5 2016.pdf",
+      "physical_page": "18",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "c",
+        "version": "v2",
+        "verdict": "adequate for reviewed issue, subject to stated source limitations",
+        "verification": "Inherited v1 review (unchanged relevant snapshot content): Diff moves NOTE 1 after legend and before NOTE 2, retaining its text."
+      }
+    },
+    {
+      "id": "ISO5-005",
+      "standard": "ISO 6336-5:2016",
+      "original_status": "rendering",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-5.2016/full.md",
+      "final_location": [
+        577,
+        647,
+        828,
+        833,
+        938
+      ],
+      "action": "为图 10、15、21、22、A.2 说明补充 Key。",
+      "pdf": "ISO 6336-5 2016.pdf",
+      "physical_page": "23, 28, 44, 51",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "c",
+        "version": "v2",
+        "verdict": "adequate for reviewed issue, subject to stated source limitations",
+        "verification": "Inherited v1 review (unchanged relevant snapshot content): Diff inserts Key ahead of descriptions for figures 10, 15, 21, 22 and A.2."
+      }
+    },
+    {
+      "id": "ISO5-006",
+      "standard": "ISO 6336-5:2016",
+      "original_status": "suspected",
+      "disposition": "annotated",
+      "relative_md_path": "md/6336-5.2016/full.md",
+      "final_location": [
+        884
+      ],
+      "action": "保留两处 SAE 编号并标注冲突。",
+      "pdf": "ISO 6336-5 2016.pdf",
+      "physical_page": "47, 53",
+      "remaining_source_limitations": "原文疑点仍待权威说明或勘误；未替代标准值。",
+      "independent_review": {
+        "group": "c",
+        "version": "v2",
+        "verdict": "adequate for reviewed issue, subject to stated source limitations",
+        "verification": "Inherited v1 review (unchanged relevant snapshot content): Editorial note retains J2241/J2441 discrepancy and requests clarification."
+      }
+    },
+    {
+      "id": "ISO6-007",
+      "standard": "ISO 6336-6:2019",
+      "original_status": "rendering",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-6.2019/full.md",
+      "final_location": [
+        294,
+        306,
+        377,
+        746
+      ],
+      "action": "为图 2、3、6、B.3 补充 Key。",
+      "pdf": "ISO 6336-6 2019.pdf",
+      "physical_page": "16, 19, 33",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "c",
+        "version": "v2",
+        "verdict": "adequate for reviewed issue, subject to stated source limitations",
+        "verification": "Inherited v1 review (unchanged relevant snapshot content): Diff inserts Key ahead of descriptions for figures 2, 3, 6 and B.3."
+      }
+    },
+    {
+      "id": "ISO6-008",
+      "standard": "ISO 6336-6:2019",
+      "original_status": "suspected",
+      "disposition": "annotated",
+      "relative_md_path": "md/6336-6.2019/full.md",
+      "final_location": [
+        283
+      ],
+      "action": "保留表 3 和表 5 的 n/N，标注大小写差异。",
+      "pdf": "ISO 6336-6 2019.pdf",
+      "physical_page": "11, 15",
+      "remaining_source_limitations": "原文疑点仍待权威说明或勘误；未替代标准值。",
+      "independent_review": {
+        "group": "c",
+        "version": "v2",
+        "verdict": "adequate for reviewed issue, subject to stated source limitations",
+        "verification": "Inherited v1 review (unchanged relevant snapshot content): Note reports lower-case n versus upper-case N under n_i heading without changing entries."
+      }
+    },
+    {
+      "id": "ISO6-009",
+      "standard": "ISO 6336-6:2019",
+      "original_status": "rendering",
+      "disposition": "fixed",
+      "relative_md_path": "md/6336-6.2019/full.md",
+      "final_location": [
+        973
+      ],
+      "action": "保留第二幅图内完整 Key，移除图外重复 Y1/Y2 说明。",
+      "pdf": "ISO 6336-6 2019.pdf",
+      "physical_page": "42",
+      "remaining_source_limitations": "",
+      "independent_review": {
+        "group": "c",
+        "version": "v2",
+        "verdict": "adequate for reviewed issue, subject to stated source limitations",
+        "verification": "Inherited v1 review (unchanged relevant snapshot content): Viewed second image containing full Key including X, Y1 and Y2; diff removes duplicate outside Y labels."
+      }
+    },
+    {
+      "id": "ISO6-010",
+      "standard": "ISO 6336-6:2019",
+      "original_status": "suspected",
+      "disposition": "annotated",
+      "relative_md_path": "md/6336-6.2019/full.md",
+      "final_location": [
+        806
+      ],
+      "action": "标注图 B.4 的纵轴与正文、表 B.2 判据不一致。",
+      "pdf": "ISO 6336-6 2019.pdf",
+      "physical_page": "34, 35",
+      "remaining_source_limitations": "原文疑点仍待权威说明或勘误；未替代标准值。",
+      "independent_review": {
+        "group": "c",
+        "version": "v2",
+        "verdict": "adequate for reviewed issue, subject to stated source limitations",
+        "verification": "Inherited v1 review (unchanged relevant snapshot content): Note contrasts figure B.4 torque T axis with paragraph/table contact stress, pending clarification."
+      }
+    }
+  ]
+}

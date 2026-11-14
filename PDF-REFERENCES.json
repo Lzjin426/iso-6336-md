@@ -1,0 +1,40 @@
+{
+  "reference_files": [
+    {
+      "filename": "06 年和 19 年版本的区别.pdf",
+      "pages": 10,
+      "sha256": "2602d907d482194646868604eb7971a1202c5a4f1e2c2000538e271a20afddb0"
+    },
+    {
+      "filename": "ISO 6336-1   2019.pdf",
+      "pages": 144,
+      "sha256": "194eafc85ab8089d77b719b355898b733cd4d13685eddb4bd6c10249ac543d15"
+    },
+    {
+      "filename": "ISO 6336-2-2019.pdf",
+      "pages": 46,
+      "sha256": "3f924bb39182e50c3404b20d0ef52b7b7871c2f70a018120392fa0f52e2e6d0b"
+    },
+    {
+      "filename": "ISO 6336-3 2019.pdf",
+      "pages": 64,
+      "sha256": "98022fd0c7344fe7fd1ab25fc4c061f95d04514996f4cc87a5e415bf6c3df92f"
+    },
+    {
+      "filename": "ISO 6336-5 2016.pdf",
+      "pages": 54,
+      "sha256": "9f29a5ed8adedb3e25b037ce5cbcb68e053ce79878c1b030cc369cbf8fe3e341"
+    },
+    {
+      "filename": "ISO 6336-6 2019.pdf",
+      "pages": 44,
+      "sha256": "f812e488e0065f874b2fcd30667fa8751126c673be724274873e61e771e16049"
+    },
+    {
+      "filename": "ISO TS 6336-4 2019.pdf",
+      "pages": 36,
+      "sha256": "5cc9fe8d9946f6d1a70a740a903b7a97f697e847cdce111b0280713d5f241ed8"
+    }
+  ],
+  "note": "PDF 为只读对照来源，不包含在本仓库中。"
+}

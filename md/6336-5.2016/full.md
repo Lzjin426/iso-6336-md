@@ -475,8 +475,7 @@ e In accordance with ISO 683-1, ISO 683-2, ISO 683-3 or ISO 683-5.
 ![](images/7d0227cfc4c25c707c017efcae66f0bd1d40e471e0fc7e075aa813406fc5b0cf.jpg)  
 a) Wrought normalized low carbon steels
 
-![](images/ee7d3d9e6ae4e63b15f30cdcfa66bec0ae2b638a1803015f673c59cd98ec1a83.jpg)  
-b) Cast steels
+![](images/ee7d3d9e6ae4e63b15f30cdcfa66bec0ae2b638a1803015f673c59cd98ec1a83.jpg)
 
 Key  
 $\sigma_{H\lim}$ allowable stress number (contact), N/mm $^{2}$ HBW surface hardness
@@ -488,8 +487,7 @@ a) Wrought normalized low carbon steels
 Key  
 $\sigma_{F\ lim}$ nominal stress number (bending), N/mm $^{2}$ $\sigma_{FE}$ allowable stress number (bending), N/mm $^{2}$ HBW surface hardness
 
-![](images/157a4bcc2ccb814b06ddae2d066daa9ec2839fdffd9024fd7b02aff4d532be16.jpg)  
-b) Cast steels
+![](images/157a4bcc2ccb814b06ddae2d066daa9ec2839fdffd9024fd7b02aff4d532be16.jpg)
 
 Figure 2 — Nominal and allowable stress numbers (bending) for wrought normalized low carbon steels and cast steels (attention is drawn to the quality requirements of 6.2)
 
@@ -499,10 +497,8 @@ a) Black malleable cast iron (see 6.3)
 ![](images/e9419e914f508ba4d5687384652ea4aed7b6eeef29829dfb2a7a9ba0ebabe9ac.jpg)  
 b) Nodular cast iron (see Table 2)
 
-![](images/cd1b9afc43fd00df67da6ccd450647540c6d8592c96f5b0764ace587cd7ca8a7.jpg)  
-c) Grey cast iron (see Table 2)
+![](images/cd1b9afc43fd00df67da6ccd450647540c6d8592c96f5b0764ace587cd7ca8a7.jpg)
 
-Key  
 Key  
 $\sigma_{H\lim}$ allowable stress number (contact), N/mm $^{2}$ HBW surface hardness
 
@@ -516,8 +512,7 @@ a) Black malleable cast iron (see 6.3)
 ![](images/5d77b3b203c307b85a9d71eef1191d0fc19bc488503e665e2a7149fdbd576fc2.jpg)  
 b) Nodular cast iron (see Table 2)
 
-![](images/6d390474b05d51ea4adc0a8cf450a0cf0d278be9c86a258137c1d605f6820a5d.jpg)  
-c) Grey cast iron (see Table 2)
+![](images/6d390474b05d51ea4adc0a8cf450a0cf0d278be9c86a258137c1d605f6820a5d.jpg)
 
 Key
 
@@ -531,14 +526,16 @@ NOTE Brinell hardness < 180 HBW indicates the presence of a high proportion of f
 
 Figure 4 — Cast iron materials — Nominal and allowable stress numbers (bending) for cast iron materials (attention is drawn to the quality requirements of 6.3 and Table 2)
 
-NOTE 1 Nominal carbon content ≥ 0,20 %.  
 ![](images/07337de8cb281588b9cdca4c671cf2abeb4f119994ace1231ce95638c0cadb23.jpg)  
 Key  
 $\sigma_{H\ lim}$ allowable stress number (contact), N/mm $^{2}$ HV surface hardness
 1 carbon steels  
 2 alloy steels
 
+NOTE 1 Nominal carbon content ≥ 0,20 %.
+
 NOTE 2 The alloy steel MX line from the first edition of ISO 6336-5 was replaced (in 2003 edition) by the ME line.
+
 
 NOTE 3 The use of the ME line stress numbers for alloy steels relies heavily on the experience of the manufacturer. This line is not supported by recently made (2011) standardized test. Results obtained without pitting stabilization.
 
@@ -578,6 +575,7 @@ NOTE Adequate case depth required (see 5.6.1).
 Figure 9 — Allowable stress numbers (contact) for case hardened wrought steels (attention is drawn to the quality requirements of Table 5)
 
 ![](images/111554cac2f454b038a65cbb01d3b7735dd88a9e75d16a42b52296ccc18f9fcd.jpg)  
+Key  
 $\sigma_{\mathrm{Flim}}$ nominal stress number (bending), $\mathrm{N / mm^2}$  
 $\sigma_{FE}$ allowable stress number (bending), N/mm $^{2}$  
 HRC surface hardness  
@@ -647,6 +645,7 @@ NOTE 3 Only applicable for Figure b): adequate nitriding hardening depth require
 Figure 14 — Nominal and allowable stress numbers (bending) for nitrided wrought steels/nitriding steels/through hardening steels nitrided (attention is drawn to the quality requirements of Table 7)
 
 ![](images/32dd82e0302a33c0b5b67eab7240d07a06fdde3b28f53b39efb4440ce6de05b3.jpg)  
+Key  
 $\sigma_{H\ lim}$ allowable stress number (contact), N/mm $^{2}$  
 HRC surface hardness  
 HV surface hardness  
@@ -826,11 +825,13 @@ Table 6 (continued)
 
 <table><tr><td>Item</td><td>Requirement</td><td>ML</td><td>MQ</td><td>ME</td></tr><tr><td>12</td><td>Overheating, especially at the tooth tips</td><td>To be avoided</td><td colspan="2">Strict avoidance (&lt;1 000 °C)</td></tr><tr><td colspan="5">NOTE This table applies to spin type flame hardening or spin and tooth-to-tooth type induction hardening with hardened roots, hardness patterns similar to Figures 21 and 22.</td></tr><tr><td colspan="5">a Preferred method is furnace tempering. Caution: non-tempering and induction tempering do carry a certain risk.<br/><br><sup>b</sup> The hardness pattern, depth, facilities and process method shall be established, documented and checked to be repeatable. A representative sample, with the same geometry and material as the work piece, shall be used to qualify the process. The process equipment and methods shall be sufficiently accurate to reproduce the specified results. The hardness pattern shall extend the full length of the teeth and over the full profile, both flanks, both roots and both root fillets.<br/><br><sup>c</sup> No cracks, bursts, seams or laps are permitted in the tooth areas of finished gears, regardless of grade. Limits: maximum of one indication per 25 mm of face width and maximum of five in one tooth flank. No indications allowed below 1/2 of working depth of tooth. Removal of defects which exceed the stated limits is acceptable, with customer approval, provided the integrity of the gear is not compromised.</td></tr></table>
 
-![](images/c4ab29da798a66b4bedbbb5a334aaa0acb1f5fb45fab7a878c00fa100c242d3d.jpg)  
+![](images/review-fixes/iso5-002-44.png)  
+Key  
 1 induction coil or flame head
 
 Figure 21 — Example for non-contour spin hardening  
-![](images/7e72b90d4de7b00797e01f6db63d83a2cb516dc03fe527da6076892a3b765ac2.jpg)
+![](images/7e72b90d4de7b00797e01f6db63d83a2cb516dc03fe527da6076892a3b765ac2.jpg)  
+Key
 
 1 induction or flame head
 
@@ -879,6 +880,8 @@ Post-shot blasting processes such as metal removal, heat treatment and shrink fi
 Shot peening is a cold working process performed by bombarding the surface of a part with small spherical media which results in a thin layer of high-magnitude residual compressive stress at the surface. Typical applications of shot peening are discussed in 6.7.2 and 6.7.3. Shot peening should not be confused with the mechanical cleaning operations discussed in 6.6.
 
 The shot peening process shall be controlled. The recommended minimum control should be based on SAE AMS 2430, $^{[7]}$ SAE AMS 2432 $^{[8]}$ or SAE J 2241. $^{[9]}$ Ground surfaces shall be protected against the impact of shot peening, unless the surface is refinished after the shot peening operation.
+
+> Editorial note (not part of the ISO text; ISO5-006, printed pages 41 and 47): This clause prints SAE J 2241 while bibliography [9] prints SAE J 2441. The intended reference requires authoritative clarification.
 
 ### 6.7.2 Strength enhancement
 
@@ -933,6 +936,7 @@ Key 1 teeth
 Figure A.1 — Examples of size of controlling section
 
 ![](images/63a065bff0489309e50f47a3160311d5bdeea6974712ee73f7021cfeb4952bd2.jpg)  
+Key  
 HBW minimum Brinell hardness  
 X recommended controlling section size  
 Y Brinell impression, mm  

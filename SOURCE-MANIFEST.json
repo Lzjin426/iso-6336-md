@@ -1,10 +1,14 @@
 {
   "snapshot_date": "2026-11-14",
+  "state": "reviewed-repair-round2",
+  "path_base": "md/",
+  "baseline_commit": "fd77a238b1a1d7acab8a9d0f66af894194cebe30",
+  "baseline_manifest": "BASELINE-MANIFEST.json",
   "files": [
     {
       "path": "6336-1.2019/full.md",
-      "bytes": 269033,
-      "sha256": "16e248985c5aa1a6c68f2859622499ae80c181980cd3217cec1fa676cbc9dc37"
+      "bytes": 271453,
+      "sha256": "2d848abc2ec8816e1785f86ff0553d512a18ed8214ab85690005f38bf69c995d"
     },
     {
       "path": "6336-1.2019/images/026e297c7a1c14cddf1760bfd8578c5b60befe4e68f9feb2037ee48b1ff8439b.jpg",
@@ -362,6 +366,21 @@
       "sha256": "2aa771a8367352630c1b452e7f81b355c5cb35e2ec1488bb6e3927da11cbbfe5"
     },
     {
+      "path": "6336-1.2019/images/review-fixes/ISO1-006.png",
+      "bytes": 376643,
+      "sha256": "fcf1ca5c0969cdeb313ac04becbb63540ff82181c98e3f3c70bb23e3ae5f321f"
+    },
+    {
+      "path": "6336-1.2019/images/review-fixes/ISO1-010.png",
+      "bytes": 677846,
+      "sha256": "4da960351b74061de86e1f3e03c0074907b3da68e15386ef8c570fb8debcfc17"
+    },
+    {
+      "path": "6336-1.2019/images/review-fixes/ISO1-012.png",
+      "bytes": 127349,
+      "sha256": "d816076df6fb74e5b3a70ca30c128a4e564f23012e661c93cf04fb782278881e"
+    },
+    {
       "path": "6336-1.2019/images/table-2-11.png",
       "bytes": 837713,
       "sha256": "c9dba19ada8e7dc30fb791ee0eafe828c55ea128a9066d7e51955453d3e93ebf"
@@ -448,8 +467,8 @@
     },
     {
       "path": "6336-2.2019/full.md",
-      "bytes": 112066,
-      "sha256": "6d07588ac3cdd899bddb9b0afe83e5012733dda676974c653c5f7e8d68ffe4f8"
+      "bytes": 112124,
+      "sha256": "2cdfa5c2ae60a509f61895157c11f01439665fa3e262a1c8ee3d7b9dab7c7d7b"
     },
     {
       "path": "6336-2.2019/images/36660f4aa019d1e044a8fb31025faf6f98786c3690e694ecaccca55b97d550cd.jpg",
@@ -522,9 +541,14 @@
       "sha256": "76cda2d88e2c8e6b74bff39c87dbcdb531f4f7dc41569ef0d1ccfdefb9d981c4"
     },
     {
+      "path": "6336-2.2019/images/review-fixes/iso2-figure11.png",
+      "bytes": 404794,
+      "sha256": "bfdb11ff6814ab57bc557fc28f969a7bf9ad6d13b872bf6be2e6de738ed6ef36"
+    },
+    {
       "path": "6336-3.2019/full.md",
-      "bytes": 162392,
-      "sha256": "984fbed50102cb6e2532d26f5afd410b1978804c911e64296c369ef76d81f403"
+      "bytes": 162655,
+      "sha256": "83e6089743359b048337722ff6162db5c242800419b7cc235e1123c221e532fd"
     },
     {
       "path": "6336-3.2019/images/02a2dc3f5c1a1ec77e0f882c7f48d77703a555e775db4abcc352627227d6f091.jpg",
@@ -637,9 +661,19 @@
       "sha256": "7b9cf8f9a18d5c7ff7b556ba88260cd205c33107caeba339ed95ab89416481d9"
     },
     {
+      "path": "6336-3.2019/images/review-fixes/iso3-figure11.png",
+      "bytes": 480536,
+      "sha256": "0c79ebf6e0c98b2b675f4c8fab073e910b90e3d5be9c8f277d114bc0c29e3434"
+    },
+    {
+      "path": "6336-3.2019/images/review-fixes/iso3-figure14.png",
+      "bytes": 711923,
+      "sha256": "2a35c7d5c156213ccd3c5b256f368d4b3b6116f0c4d0fdf7add6ac40779d17b6"
+    },
+    {
       "path": "6336-5.2016/full.md",
-      "bytes": 102396,
-      "sha256": "4a9ad699b4c5d541481076e6fa932d8376bbf03c3a46d91137b0509acaafb10f"
+      "bytes": 102492,
+      "sha256": "57bf0671af9e3d1ae5356a9621208c250899a1d570d9509d4db17e722967c137"
     },
     {
       "path": "6336-5.2016/images/07337de8cb281588b9cdca4c671cf2abeb4f119994ace1231ce95638c0cadb23.jpg",
@@ -832,9 +866,14 @@
       "sha256": "7f2ceeee713c6d1021051f9b9c2e7ab25cb2b1689b08c8fda7a5802c85601e92"
     },
     {
+      "path": "6336-5.2016/images/review-fixes/iso5-002-44.png",
+      "bytes": 86506,
+      "sha256": "2c55c303c2799b36a97beeae8be0f09f3f4973f762725386a6399f5445f45bbc"
+    },
+    {
       "path": "6336-6.2019/full.md",
-      "bytes": 62170,
-      "sha256": "351f88e614a2791a5798488a661e96b9977757ac49c57f95f92cb9c873e35ed0"
+      "bytes": 63821,
+      "sha256": "c1267d32a7c83153300c5b64e47aec958b5535afd19cb471a4ab6a9071b0c54d"
     },
     {
       "path": "6336-6.2019/images/179bff37b7863fe247d1378ad64bc7cc0b76cb23ddba2ab3f87e60c78cc6269c.jpg",
@@ -927,6 +966,11 @@
       "sha256": "a07fdc9b45978872b9bfec52d278d8d1e53a115f10694db69e67ed48a3a31592"
     },
     {
+      "path": "6336-6.2019/images/review-fixes/iso6-006-23.png",
+      "bytes": 71919,
+      "sha256": "e7adee1040d039416914a4bdf512e306a0962addb544a80afeba0107eddec053"
+    },
+    {
       "path": "6336-6.2019/images/table-2-10.png",
       "bytes": 694739,
       "sha256": "f84c3fa3c126cee194b3957c1624dc5bdccbdeb64c213972aa78980fe40b882e"
@@ -993,8 +1037,8 @@
     },
     {
       "path": "6336TS-4.2019/full.md",
-      "bytes": 74569,
-      "sha256": "c86d04c07241638696c891501c7c38cb3551bc3e04cb6aa7ecc1820544b5bf35"
+      "bytes": 74883,
+      "sha256": "cf478bcdca499267bdd4f6a9baa778ced1f258e70d15f2449cc26800e8287678"
     },
     {
       "path": "6336TS-4.2019/images/13e61200321fd20dc4763e40826dc99a8a81d06cf8efb625bbc9fd406985379e.jpg",

@@ -678,10 +678,10 @@ For spur gear the contact factors, $Z_{\mathrm{B}}$ and $Z_{\mathrm{D}}$ , are u
 
 For helical gears the contact factors, $Z_{B}$ and $Z_{D}$ , convert the contact stress at the pitch point to the contact stress of the relevant contact point if the pitch point is not determinant.
 
-![](images/8e5f1ddca888e160952dc4e4615eca9e02c061ae141a93bfdfaddc5325a5f0b8.jpg)
+![](images/8e5f1ddca888e160952dc4e4615eca9e02c061ae141a93bfdfaddc5325a5f0b8.jpg)  
+a) External gearing
 
 ![](images/cc7ae03287e3351cc765816d8a9f1026776ce2c2b3c049905ba4918878b74fd9.jpg)  
-a) External gearing  
 b) Internal gearing
 
 Key  
@@ -1122,7 +1122,7 @@ $$
 C_{\mathrm{ZL}}=0,91\tag{45}
 $$
 
-> Editorial note (not part of ISO text): The denominator 437,5 in Formula (43) is reproduced as printed in the source PDF; it has not been silently corrected.
+> Editorial note (not part of ISO text): ISO2-003, printed page 26: The denominator 437,5 in Formula (43) is reproduced as printed. Its results do not join the values in Formulae (44) and (45); the source discrepancy requires authoritative clarification.
 
 b) Alternatively, $Z_{\mathrm{L}}$ can be calculated from Formula (46):
 
@@ -1408,7 +1408,7 @@ $$
 Z_{\mathrm{W}}=1,0\tag{67}
 $$
   
-![](images/451565814209c520c99e47a0b3c288e7817c4f2dc086b54f24563a774a8c6f08.jpg)
+![](images/review-fixes/iso2-figure11.png)
 
 Key  
 X gear ratio, $u$  

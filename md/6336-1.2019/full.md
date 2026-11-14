@@ -654,6 +654,8 @@ $$
 
 > Editorial note (not part of the ISO text): The denominator 9 549 in Formula (5) is reproduced as printed in the source PDF (printed page 19).
 
+> 编者校核注（非标准正文，ISO1-024，原标准印刷页 19）：式(4)为 v=dn/19098；式(5)为 ω=2000v/d=n/9549。代入式(4)，前一等式得到 n/9.549，与后一等式差1000倍。 此处保留原文；尚未核实本版正式勘误或权威解释。
+
 ### 4.2.3 Equivalent tangential load, equivalent torque and equivalent power
 
 When the transmitted load is not uniform, consideration should be given not only to the peak load and its anticipated number of cycles, but also to intermediate loads and their numbers of cycles. This type of load is classed as a duty cycle and may be represented by a load spectrum. In such cases, the cumulative fatigue effect of the duty cycle is considered in rating the gear set, see 5.1.
@@ -1037,7 +1039,7 @@ $$
 
 The lower limit, $N_{S}$ , is determined:
 
-a) at loads such that $(F_{\mathrm{t}} \cdot K_{\mathrm{A}} \cdot K_{\mathrm{v}}) / b$ is less than 100 N/mm, as
+a) at loads such that $(F_{\mathrm{t}} \cdot K_{\mathrm{A}} \cdot K_{\gamma}) / b$ is less than 100 N/mm, as
 
 $$
 N _ {S} = 0, 5 + 0, 35 \sqrt {\frac {F _ {\mathrm{t}} K _ {\mathrm{A}} K _ {\gamma}}{100 b}}\tag{11}
@@ -1262,7 +1264,7 @@ where
 
 $m^{*}_{ring}$ is the moment of inertia per unit face width of the ring gear, divided by $r^{2}_{bring}$ , where $r_{bring} = d_{bring} / 2$ ;
 
-$d_{\mathrm{m}}$ ring is the mean diameter for calculating reduced gear pair mass for ring gears, see Formula (31);
+$d_{\mathrm{m\,ring}}$ is the mean diameter for calculating reduced gear pair mass for ring gears, see Formula (31);
 
 $q_{ring}$ is the auxiliary factor for ring gears, see Formula (32).
 
@@ -1390,11 +1392,11 @@ $K_{v\beta}$ is the dynamic factor for helical gears using a).
 ![](images/74ac2c200d31e218c9b7a2c34fd7825f925e51c50c16600c5ee02946674a2965.jpg)
 
 $$
-\left(v z _ {1} / 100\right) \sqrt {u ^ {2} / \left(1 + u ^ {2}\right)}
+X \quad \left(v z _ {1} / 100\right) \sqrt {u ^ {2} / \left(1 + u ^ {2}\right)}
 $$
 
 $$
-K _ {350} N
+Y \quad K _ {350} N
 $$
 
 a Gear tolerance class in accordance with ISO 1328-1:2013, helical gears.
@@ -1410,39 +1412,39 @@ a Gear tolerance class in accordance with ISO 1328-1:2013, spur gears.
 Figure 6 — Value of $K_{350}$ N for spur gears  
 Table 9 — Load correction factor, ${f}_{\mathrm{F}}$ ,for helical gears
 
-| Gear tolerance classa | Load correction factor,  $f_{F}$ | Load correction factor,  $f_{F}$ | Load correction factor,  $f_{F}$ | Load correction factor,  $f_{F}$ | Load correction factor,  $f_{F}$ | Load correction factor,  $f_{F}$ | Load correction factor,  $f_{F}$ | Load correction factor,  $f_{F}$ |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Gear tolerance classa | ≤100 | 200 | 350 | 500 | 800 | 1 200 | 1 500 | 2 000 |  |
-| Gear tolerance classa | 3 | 1,96 | 1,29 | 1 | 0,88 | 0,78 | 0,73 | 0,70 | 0,68 |
-| 4 | 2,21 | 1,36 | 1 | 0,85 | 0,73 | 0,66 | 0,62 | 0,60 |  |
-| 5 | 2,56 | 1,47 | 1 | 0,81 | 0,65 | 0,56 | 0,52 | 0,48 |  |
-| 6 | 2,82 | 1,55 | 1 | 0,78 | 0,59 | 0,48 | 0,44 | 0,39 |  |
-| 7 | 3,03 | 1,61 | 1 | 0,76 | 0,54 | 0,42 | 0,37 | 0,33 |  |
-| 8 | 3,19 | 1,66 | 1 | 0,74 | 0,51 | 0,38 | 0,33 | 0,28 |  |
-| 9 | 3,27 | 1,68 | 1 | 0,73 | 0,49 | 0,36 | 0,30 | 0,25 |  |
-| 10 | 3,35 | 1,70 | 1 | 0,72 | 0,47 | 0,33 | 0,28 | 0,22 |  |
-| 11 | 3,39 | 1,72 | 1 | 0,71 | 0,46 | 0,32 | 0,27 | 0,21 |  |
+| Gear tolerance classa | Load correction factor,  $f_{F}$ | Load correction factor,  $f_{F}$ | Load correction factor,  $f_{F}$ | Load correction factor,  $f_{F}$ | Load correction factor,  $f_{F}$ | Load correction factor,  $f_{F}$ | Load correction factor,  $f_{F}$ | Load correction factor,  $f_{F}$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Gear tolerance classa | ≤100 | 200 | 350 | 500 | 800 | 1 200 | 1 500 | 2 000 |
+| 3 | 1,96 | 1,29 | 1 | 0,88 | 0,78 | 0,73 | 0,70 | 0,68 |
+| 4 | 2,21 | 1,36 | 1 | 0,85 | 0,73 | 0,66 | 0,62 | 0,60 |
+| 5 | 2,56 | 1,47 | 1 | 0,81 | 0,65 | 0,56 | 0,52 | 0,48 |
+| 6 | 2,82 | 1,55 | 1 | 0,78 | 0,59 | 0,48 | 0,44 | 0,39 |
+| 7 | 3,03 | 1,61 | 1 | 0,76 | 0,54 | 0,42 | 0,37 | 0,33 |
+| 8 | 3,19 | 1,66 | 1 | 0,74 | 0,51 | 0,38 | 0,33 | 0,28 |
+| 9 | 3,27 | 1,68 | 1 | 0,73 | 0,49 | 0,36 | 0,30 | 0,25 |
+| 10 | 3,35 | 1,70 | 1 | 0,72 | 0,47 | 0,33 | 0,28 | 0,22 |
+| 11 | 3,39 | 1,72 | 1 | 0,71 | 0,46 | 0,32 | 0,27 | 0,21 |
 
-$(F_{t} K_{A} K_{Y})/b$ N/mm
+$(F_{t} K_{A} K_{\gamma})/b$ N/mm
 
 NOTE 1 Interpolate for intermediate values.NOTE 2 Consider the worst tolerance class between pinion and gear.a Gear tolerance class in accordance with ISO 1328-1:2013.
 
 Table 10 — Load correction factor, $f_{\mathrm{F}}$ , for spur gears
 
-| Gear tolerance classa | Load correction factor,  $f_{\text{F}}$ | Load correction factor,  $f_{\text{F}}$ | Load correction factor,  $f_{\text{F}}$ | Load correction factor,  $f_{\text{F}}$ | Load correction factor,  $f_{\text{F}}$ | Load correction factor,  $f_{\text{F}}$ | Load correction factor,  $f_{\text{F}}$ | Load correction factor,  $f_{\text{F}}$ |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Gear tolerance classa | ≤100 | 200 | 350 | 500 | 800 | 1 200 | 1 500 | 2 000 |  |
-| Gear tolerance classa | 3 | 1,61 | 1,18 | 1 | 0,93 | 0,86 | 0,83 | 0,81 | 0,80 |
-| 4 | 1,81 | 1,24 | 1 | 0,90 | 0,82 | 0,77 | 0,75 | 0,73 |  |
-| 5 | 2,15 | 1,34 | 1 | 0,86 | 0,74 | 0,67 | 0,65 | 0,62 |  |
-| 6 | 2,45 | 1,43 | 1 | 0,83 | 0,67 | 0,59 | 0,55 | 0,51 |  |
-| 7 | 2,73 | 1,52 | 1 | 0,79 | 0,61 | 0,51 | 0,47 | 0,43 |  |
-| 8 | 2,95 | 1,59 | 1 | 0,77 | 0,56 | 0,45 | 0,40 | 0,35 |  |
-| 9 | 3,09 | 1,63 | 1 | 0,75 | 0,53 | 0,41 | 0,36 | 0,31 |  |
-| 10 | 3,22 | 1,67 | 1 | 0,73 | 0,50 | 0,37 | 0,32 | 0,27 |  |
-| 11 | 3,30 | 1,69 | 1 | 0,72 | 0,48 | 0,35 | 0,30 | 0,24 |  |
+| Gear tolerance classa | Load correction factor,  $f_{\text{F}}$ | Load correction factor,  $f_{\text{F}}$ | Load correction factor,  $f_{\text{F}}$ | Load correction factor,  $f_{\text{F}}$ | Load correction factor,  $f_{\text{F}}$ | Load correction factor,  $f_{\text{F}}$ | Load correction factor,  $f_{\text{F}}$ | Load correction factor,  $f_{\text{F}}$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Gear tolerance classa | ≤100 | 200 | 350 | 500 | 800 | 1 200 | 1 500 | 2 000 |
+| 3 | 1,61 | 1,18 | 1 | 0,93 | 0,86 | 0,83 | 0,81 | 0,80 |
+| 4 | 1,81 | 1,24 | 1 | 0,90 | 0,82 | 0,77 | 0,75 | 0,73 |
+| 5 | 2,15 | 1,34 | 1 | 0,86 | 0,74 | 0,67 | 0,65 | 0,62 |
+| 6 | 2,45 | 1,43 | 1 | 0,83 | 0,67 | 0,59 | 0,55 | 0,51 |
+| 7 | 2,73 | 1,52 | 1 | 0,79 | 0,61 | 0,51 | 0,47 | 0,43 |
+| 8 | 2,95 | 1,59 | 1 | 0,77 | 0,56 | 0,45 | 0,40 | 0,35 |
+| 9 | 3,09 | 1,63 | 1 | 0,75 | 0,53 | 0,41 | 0,36 | 0,31 |
+| 10 | 3,22 | 1,67 | 1 | 0,73 | 0,50 | 0,37 | 0,32 | 0,27 |
+| 11 | 3,30 | 1,69 | 1 | 0,72 | 0,48 | 0,35 | 0,30 | 0,24 |
 
-$(F_{\text{t}} K_{\text{A}} K_{\text{Y}})/b$ N/mm
+$(F_{\text{t}} K_{\text{A}} K_{\gamma})/b$ N/mm
 
 NOTE 1 Interpolate for intermediate values.NOTE 2 Consider the worst tolerance class between pinion and gear.a Gear tolerance class in accordance with ISO 1328-1:2013.
 
@@ -1619,7 +1621,7 @@ $$
 a) Low load and/or large value of $F_{\beta y}$ , $b_{cal}/b \leq 1$  
 ![](images/ed71d2e816d490012ee9b083b5d8d82b978433b9e258a758eba3048804e625a0.jpg)  
 b) High load and/or small value of $F_{\beta y}$ , $b_{cal}/b > 1$  
-Figure 8 — Calculation of load per the unit face width $F_{\text{max}} / b$ with linear distribution of the load on the face width $F_{\text{m}} = F_{\text{t}} K_{\text{A}} K_{\text{Y}} K_{\text{v}}$
+Figure 8 — Calculation of load per the unit face width $F_{\text{max}} / b$ with linear distribution of the load on the face width $F_{\text{m}} = F_{\text{t}} K_{\text{A}} K_{\gamma} K_{\text{v}}$
 
 #### 7.4.3.2 Gear mesh
 
@@ -1793,6 +1795,8 @@ $$
 $$
 
 where $y_{\beta} \leq F_{\beta X}$ and $\chi_{\beta} \geq 0$ and where
+
+> 编者校核注（非标准正文，ISO1-020，原标准印刷页 52）：物理页60式(46)及其定义使用 F_{βx}（小写 x）；同页条件印 yβ ≤ F_{βX}（大写 X）。 此处保留原文；尚未核实本版正式勘误或权威解释。
 
 $$
 \mathrm{for} v \leq 5 \mathrm{m/s}
@@ -1984,7 +1988,7 @@ See 7.2.2 for $F_{m}/b$ .
 For double helical gears:
 
 $$
-f _ {\mathrm{sh}} = \frac {F _ {\mathrm{m}}}{b} \cdot 2 \cdot k _ {\text {unit}} \cdot \left[ \left| B ^ {*} + K \frac {l \cdot s}{d _ {1} ^ {2}} \left(\frac {d _ {1}}{d _ {\mathrm{sh}}}\right) ^ {4} - 0, 3 \right| + 0, 3 \right] \cdot \left(\frac {b _ {\mathrm{B}}}{d _ {1}}\right) ^ {2}\tag{60}
+f _ {\mathrm{sh}} = \frac {F _ {\mathrm{m}}}{b} \cdot 2 \cdot k _ {\text {unit}} \cdot \left[ \left| B ^ {*} + K' \frac {l \cdot s}{d _ {1} ^ {2}} \left(\frac {d _ {1}}{d _ {\mathrm{sh}}}\right) ^ {4} - 0, 3 \right| + 0, 3 \right] \cdot \left(\frac {b _ {\mathrm{B}}}{d _ {1}}\right) ^ {2}\tag{60}
 $$
 
 with B\* equal to 1,5, if the total power is transferred by a single engagement,
@@ -1995,13 +1999,9 @@ See 7.2.2 for $F_{\mathrm{m}} / b$
 
 If there is more than one power path, then only k % of the input is through one gear mesh (e.g. as in the case of grooved roller mill gears) and the following applies:
 
-$$
-- B ^ {*} = 1 + 2 (100 - k) / k \quad \text { for   spur   and   single   helical   gears; }
-$$
+- $B ^ {*} = 1 + 2 (100 - k) / k \quad \text { for   spur   and   single   helical   gears; }$
 
-$$
-- B ^ {*} = 0, 5 + (200 - k) / k \quad \text { for   double   helical   gears. }
-$$
+- $B ^ {*} = 0, 5 + (200 - k) / k \quad \text { for   double   helical   gears. }$
 
 The constant, $K'$ , makes allowances for the position of the pinion in relation to the torqued end. It can be taken from Figure 13.
 
@@ -2021,19 +2021,19 @@ This type of helix modification is used to protect the tooth ends from the overl
 
 If the amount of end relief is greater than is specified in Annex B, a reduced width $b_{(b)}$ shall replace the face width b in the formulae used for calculating load capacity (see Figure B.2). This is determined from values of $C_{\mathrm{I(II)(b)}}$ calculated in accordance with Formulae (B.3) or (B.4). It is to be assumed that the tooth ends outside $b_{(b)}$ are not bearing any load.
 
-![](images/576fc0f5c8efe2c93ff4806d9bff5b2696974495ab87f1290aedcc8a920d9ad4.jpg)
+![](images/review-fixes/ISO1-006.png)
 
-![](images/1f61014ba7f48b2b863683a62fa111a93f043eb73b61887daaafa8034fb877f6.jpg)
 
-![](images/72d1edb3284efc644822d974a2684a435ffd2cac95f366cdf698d43877ad5104.jpg)
 
-![](images/c402f6a6863ef3219c9580833cff58d1502d31ca57dc97aa74c32e0837ba7dd4.jpg)
 
-![](images/d90c88de2b08ac65172030673268c93da532e8d0d22ad2062af0b4891564bb67.jpg)
 
-![](images/cb45e9e8b876dc8347c2cc07be4a578de8badebc4904d34ce1cc3b5bf327048d.jpg)
 
-e) Contact pattern lies towards the bearing $^{e}$ f) Contact pattern lies away from the bearing $^{f}$ Key
+
+
+
+
+
+Key
 
 $T^{*}$ input or output torqued end, not dependent on direction of rotation
 
@@ -2341,7 +2341,7 @@ $c_{\gamma\alpha}$ is the mesh stiffness in accordance with Clause 9;
 
 $f_{pb}$ is the larger of the base pitch deviations of pinion or wheel; 50 % of this tolerance may be used, when profile modifications compensate for the deflections of the teeth at the actual load level;
 
-NOTE The base pitch deviation, $f_{pb}$ , accounts for the total effect of all gear tooth deviations which affect the transverse load factor. If, nevertheless, the profile form deviation, $f_{fa}$ , is greater than the base pitch deviation, the profile form deviation is to be taken instead of the base pitch deviation.
+NOTE The base pitch deviation, $f_{pb}$ , accounts for the total effect of all gear tooth deviations which affect the transverse load factor. If, nevertheless, the profile form deviation, $f_{f\alpha}$ , is greater than the base pitch deviation, the profile form deviation is to be taken instead of the base pitch deviation.
 
 $y_{\alpha}$ is the running-in allowance as specified in 8.3.6;
 
@@ -2442,9 +2442,9 @@ $$
 $y_{\alpha}$ may be read from Figures 17 and 18 as a function of the base pitch deviation, $f_{pb}$ , and the material value, $\sigma_{H\lim}$ (see Table 3 for abbreviations used).
 
 ![](images/4987cb7a3fa63bb974ecd0b9e7cbee75cb0615ccbba8d6096647451dccf8ba9d.jpg)  
-St, St (cast), V, GGG (perl., bai.), GTS (perl.), circumferential velocity v > 10 m/s  
-\_\_\_\_ GG, GGG (ferr.), circumferential velocity v > 10 m/s  
-\_\_\_\_ Eh, IF, NT (nitr.), NV (nitr.), NV (nitrocar.), all circumferential velocities
+实线（solid line）：St, St (cast), V, GGG (perl., bai.), GTS (perl.), circumferential velocity v > 10 m/s  
+点划线（dash-dot line）：GG, GGG (ferr.), circumferential velocity v > 10 m/s  
+虚线（dashed line）：Eh, IF, NT (nitr.), NV (nitr.), NV (nitrocar.), all circumferential velocities
 
 Figure 17 — Determination of running-in allowance, $y_{\alpha}$ , of gear pair (see also Figure 18)
 
@@ -2543,7 +2543,7 @@ Method B can also be used, either approximately or with further auxiliary factor
 
 — shaft hub assembly other than under f), e.g. with fitted key;
 
-— specific load $(F_{\mathrm{t}} K_{\mathrm{A}} K_{\mathrm{y}}) / b < 100 \, \mathrm{N/mm}$ .
+— specific load $(F_{\mathrm{t}} K_{\mathrm{A}} K_{\gamma}) / b < 100 \, \mathrm{N/mm}$ .
 
 ### 9.3.2 Single stiffness, $c'$
 
@@ -2618,6 +2618,7 @@ when $b_{s}/b > 1,2$ substitute $b_{s}/b = 1,2;$
 when $s_{R}/m_{n}<1$ substitute $s_{R}/m_{n}=1$ .
 
 ![](images/3a345428f5b8a8f4b6db1e6f8536b916b469bd06c0cacde8993b6f2f2815ecce.jpg)  
+X $b_s/b$  
 Y wheel blank factor, $C_{R}$  
 Figure 19 — Gear blank factor, $C_{R}$ — Mean values for mating gears of similar or stiffer wheel blank design
 
@@ -2759,9 +2760,9 @@ $E_{1}$ is the modulus of elasticity of pinion;
 
 $E_{2}$ is the modulus of elasticity of wheel;
 
-$v_{1}$ is the Poisson's ratio of the pinion;
+$\nu_{1}$ is the Poisson's ratio of the pinion;
 
-$v_{2}$ is the Poisson's ratio of the wheel.
+$\nu_{2}$ is the Poisson's ratio of the wheel.
 
 ## 10.3 Local Hertzian contact stress, $p_{dyn,CP}$
 
@@ -2870,7 +2871,7 @@ B \quad g _ {C P} = g _ {B} = g _ {\alpha} - p _ {e t} \text {   the   pinion   
 $$
 
 $$
-g _ {\mathrm{CP}} = g _ {\mathrm{C}} = \frac {d _ {\mathrm{b} 1}}{2} \cdot \tan \alpha_ {\mathrm{wt}} - \sqrt {\frac {d _ {\mathrm{Na} 1} ^ {2}}{4} - \frac {d _ {\mathrm{b} 1} ^ {2}}{4}} + g _ {\alpha}\tag{107}
+\mathbf{C} \quad g _ {\mathrm{CP}} = g _ {\mathrm{C}} = \frac {d _ {\mathrm{b} 1}}{2} \cdot \tan \alpha_ {\mathrm{wt}} - \sqrt {\frac {d _ {\mathrm{Na} 1} ^ {2}}{4} - \frac {d _ {\mathrm{b} 1} ^ {2}}{4}} + g _ {\alpha}\quad \text{the pitch point}\tag{107}
 $$
 
 $$
@@ -3059,7 +3060,7 @@ X _ {\text { but,CP }} = X _ {\text { but,A }} - \frac {g _ {\mathrm{CP}}}{0 , 2
 $$
 
 $$
-X _ {\mathrm{but,CP}} = 1, 0\tag{134}
+X _ {\mathrm{but,CP}} = 1, 0\quad \text{for } g_{\mathrm{AU}} \leq g_{\mathrm{CP}} \leq g_{\mathrm{EU}}\tag{134}
 $$
 
 $$
@@ -3534,6 +3535,8 @@ $B_{3}$ is otherwise equal to 1,0.
 The value of $K_{H\beta}$ can be read from Figure C.1.
 
 ![](images/b51563361e2d75ef61980df5967b3ea7d10da88fe7da438457102a64a270c941.jpg)  
+
+Key: X — crowning height $C_{\beta}^{*}$; Y — face load factor $K_{H\beta}$.
 Figure C.1 — Face load factors, $K_{H\beta}$ , for crowned gears
 
 ### C.2.5 Determination by calculation
@@ -3678,6 +3681,8 @@ $$
 \begin{array}{r l} {K _ {\mathrm{H} \beta}} & {= \frac {c _ {\gamma \beta} \left[ \frac {F _ {\mathrm{m}}}{b c _ {\gamma \beta}} \left(f _ {\mathrm{tm}} + f _ {\mathrm{bm}} - y _ {\beta}\right) 1000 \right]}{c _ {\gamma \beta} \frac {F _ {\mathrm{m}} / b}{c _ {\gamma \beta}}}} \\ & {= 1 + \frac {c _ {\gamma \beta} \chi_ {\beta} \left(f _ {\mathrm{tm}} + f _ {\mathrm{bm}}\right) 1000}{F _ {\mathrm{m}} / b}} \\ & {= 1 + \frac {2}{3} \frac {c _ {\gamma \beta}}{F _ {\mathrm{m}} / b} \chi_ {\beta} \left(f _ {\mathrm{tmax}} + f _ {\mathrm{bmax}}\right) 1000} \end{array}\tag{D.10}
 $$
 
+> 编者校核注（非标准正文，ISO1-026，原标准印刷页 104）：式(D.10)首行方括号中基准挠度分式与变形项相邻而无加号，下一行却以 1 加变形项表示。 此处保留原文；尚未核实本版正式勘误或权威解释。
+
 ## D.3 Explanatory notes to Formulae (54) and (55)
 
 The factor 1,33 in Formulae (54), (55) and (56) corrects the error arising from the assumption that the elastic deformation $f_{\mathrm{sh}}$ is linear. Using the linear deformation formulation with $1,33f_{\mathrm{sh}}$ , the same value of $K_{\mathrm{H}\beta}$ is calculated as with the actual parabolic deformation and $1,0f_{\mathrm{sh}}$ (see Figure D.2).
@@ -3704,7 +3709,7 @@ where $f\left(f=w/c_{\gamma}\right)$ is the tooth deflection.
 
 a Consider $\Delta f_{sh,p}$ for parabolic deflection.
 
-b Consider $\Delta f_{sh,1}$ for linear deflection.
+b Consider $\Delta f_{sh,l}$ for linear deflection.
 
 Figure D.2 — Elastic deflection of the pinion, $f_{sh}$ , (principle) — Comparison of actual and assumed progression
 
@@ -3763,7 +3768,7 @@ As explained in Clause 7, when calculating shaft deflections, the area of the ge
 
 However, to simplify the explanation of the deflection calculation method, the following model and explanation will be of a stepped shaft with two supports, three changes in diameter and two point loads, as shown in Figure E.2 and Table E.1.
 
-![](images/2ecce45d86e7d320498cf62cba8e3527d94cc67c013316dce6bf51a9db8c1091.jpg)  
+![](images/review-fixes/ISO1-012.png)  
 Key  
 1 to 7 station numbers (see Table E.1)  
 Figure E.2 — Example shaft
@@ -3773,6 +3778,8 @@ Table E.1 — Calculation data and results
 ![table-E1-117](images/table-E1-117.png)
 
 ![table-E1-118](images/table-E1-118.png)
+
+> 编者校核注（非标准正文，ISO1-028，原标准印刷页 110）：表E.1续表首区间平均斜率印0.49279，端点斜率为0和0.09856；区间变形增量印1.08414。端点算术平均约0.04928。 此处保留原文；尚未核实本版正式勘误或权威解释。
 
 All modelling will be from the left-hand support moving toward the right-hand support. Deflection at supports is zero. The gearing loads and any other external loads are used to obtain the free body load diagram. In the load diagram the loads, $F_{i}$ , and the distances, $X_{fi}$ , from left support to load location are specified.
 
@@ -3906,7 +3913,7 @@ $$
 \overline {{{{S _ {\mathrm{l} i}}}}} = \frac {S _ {\mathrm{l} i} + S _ {\mathrm{l} i + 1}}{2} \dots i = 1, 2, 3, \dots , n - 1\tag{E.14}
 $$
 
-Step 14: Obtain the deflection increment values, $D_{1i}$ , in column 14 by multiplying the average slope value in column 13 and the $x_{i}$ value from the next lower line in column 6.
+Step 14: Obtain the deflection increment values, $D_{\mathrm{li}}$ , in column 14 by multiplying the average slope value in column 13 and the $x_{i}$ value from the next lower line in column 6.
 
 $$
 D _ {\mathrm{li}} = \left(\overline {{S _ {\mathrm{li}}}}\right) \left(x _ {i + 1}\right) \dots i = 1, 2, 3, \dots , n - 1\tag{E.15}
@@ -3926,6 +3933,8 @@ $$
 I _ {C} = \frac {S _ {\mathrm{y}}}{L _ {\mathrm{S}}}\tag{E.18}
 $$
 
+> 编者校核注（非标准正文，ISO1-023，原标准印刷页 113）：第15步要求改变 S_y 的符号并除以 L_s；式(E.18)却印 I_C=S_y/L_s。 此处保留原文；尚未核实本版正式勘误或权威解释。
+
 Other shaft configurations will change the integration constant.
 
 Step 16: The integration constant for each increment, $I_{CSi}$ , is now calculated. Multiply integration constant $I_{C}$ calculated in step 15, by $x_{i}$ value on the next lower line from column 6 to obtain the constant for each increment. List these values in column 15 on the same line as the average slope and deflection increments.
@@ -3939,7 +3948,7 @@ Step 17: Column 16 is the calculated deflection. Place zero at left support loca
 These deflection values are inserted on the same line as the station. As a math check when summing the values of $y_{i}$ , the calculated value at the right support location, $y_{n}$ , should be very close to zero.
 
 $$
-y _ {i + 1} = y _ {i} + D _ {\mathrm{Ii}} + I _ {\mathrm{CSi}} \dots i = 1, 2, 3, \dots , n - 1\tag{E.20}
+y _ {i + 1} = y _ {i} + D _ {\mathrm{li}} + I _ {\mathrm{CSi}} \dots i = 1, 2, 3, \dots , n - 1\tag{E.20}
 $$
 
 ### E.2.3 Assumptions
@@ -4210,6 +4219,8 @@ $$
 \frac {L _ {i}}{X _ {i}} - \frac {L _ {j}}{X _ {j}} = \left(\delta_ {i} - \delta_ {j}\right) c _ {\gamma \beta}\tag{E.28}
 $$
 
+> 编者校核注（非标准正文，ISO1-029，原标准印刷页 125）：式(E.28)前文要求将式(E.27)中的 j 设为位置1，随后式(E.28)仍印 L_j/X_j 和 δ_j。 此处保留原文；尚未核实本版正式勘误或权威解释。
+
 or:
 
 $$
@@ -4222,6 +4233,8 @@ $$
 L _ {i} = X _ {i} \left(\frac {L _ {1}}{X _ {1}} - \left(\delta_ {i} - \delta_ {1}\right) c _ {\gamma \beta}\right)\tag{E.30}
 $$
 
+> 编者校核注（非标准正文，ISO1-030，原标准印刷页 125）：式(E.29)以减号表达 L₁，式(E.30)也以减号表达 Lᵢ；若两式作为互为移项的等式，符号关系不一致。 此处保留原文；尚未核实本版正式勘误或权威解释。
+
 Sum up the values for all locations using Formula (E.28) and obtain Formula (E.31) below. Only one value of tooth stiffness, $c_{\gamma\beta}$ , is used and the tooth face width is broken into equally spaced segments:
 
 $$
@@ -4233,6 +4246,10 @@ Simplifying Formula (E.31) gives
 $$
 \left(\frac {L _ {1}}{X _ {1}} + \frac {L _ {2}}{X _ {2}} + \dots + \frac {L _ {n}}{X _ {n}}\right) = \left[ \left(\delta_ {i} - \delta_ {1}\right) + \left(\delta_ {2} - \delta_ {1}\right) + \dots + \left(\delta_ {n} - \delta_ {1}\right) \right] c _ {\gamma \beta}\tag{E.32}
 $$
+
+> 编者校核注（非标准正文，ISO1-027，原标准印刷页 125）：式(E.31)左侧各项含 −L₁/X₁；原文称简化后，式(E.32)左侧这些减项消失，右侧未见对应补偿。 此处保留原文；尚未核实本版正式勘误或权威解释。
+
+> 编者校核注（非标准正文，ISO1-031，原标准印刷页 125）：式(E.31)右侧首项为 δ₁−δ₁；紧随“简化”说明的式(E.32)右侧首项却印 δᵢ−δ₁。 此处保留原文；尚未核实本版正式勘误或权威解释。
 
 The sum of all loads always equals the plane of action load, $F_{bt eff}$ , and all values of $X_{i}$ are equal, so:
 
@@ -4247,6 +4264,10 @@ L _ {1} = \frac {F _ {\mathrm{bteff}}}{i} - \frac {c _ {\gamma \beta} X _ {i}}{i
 $$
 
 > Editorial note (not part of the ISO text): The trailing minus sign inside the second parenthesis of Formula (E.34) is reproduced as printed (printed page 125).
+
+> 编者校核注（非标准正文，ISO1-025，原标准印刷页 125）：式(E.34)第二括号印有 (δ₂−δ₁−)，末尾减号后无操作数。 此处保留原文；尚未核实本版正式勘误或权威解释。
+
+> 编者校核注（非标准正文，ISO1-032，原标准印刷页 125）：式(E.31)–(E.33)以 n 表示求和末项；求解 L₁ 的式(E.34)两处分母却印 i，段数与分母的关系不明。 此处保留原文；尚未核实本版正式勘误或权威解释。
 
 Using Formula (E.30), the rest of the values for loads can be calculated.
 
@@ -4288,7 +4309,7 @@ The rules that govern the loads on the face width are the following.
 
 \- If the calculation is executed either with inconstant tooth stiffness or with tooth face width not broken into equally spaced segments, then Formula E.34 is not valid. In this case, the load distribution has to be calculated by iteration of $L_{1}$ until $\Sigma L_{i} = F_{\text{bt eff}}$ is reached.
 
-![](images/20713fa66c3cecc2b9903b84287ee4de75214b08bc9442c739ddf5472470307f.jpg)  
+![](images/review-fixes/ISO1-010.png)  
 Figure E.11 — Flow chart for analytical method for load distribution
 
 # Annex F (informative) — General symbols used for calculation of load capacity of spur and helical gears
